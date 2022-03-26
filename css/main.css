@@ -37,7 +37,7 @@ main {
   grid-template-areas:
   "banner  banner  banner"
   "img     img     img"
-  "article article article";
+  "col1    col2    col3";
   gap: .75rem;
 }
 
@@ -53,7 +53,6 @@ main {
 }
 
 article {
-  grid area: article;
   padding: 1rem;
   margin: 0;
 }
