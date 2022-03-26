@@ -19,8 +19,8 @@ h1 {
 }
 
 h1, h2, h3 {
-    margin: 0;
-    font-weight: normal;
+  margin: 0;
+  font-weight: normal;
 }
 
 h2, h3 {
@@ -39,9 +39,9 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "banner  banner  banner"
-  "img     img     img"
-  "col1    col2    col3";
+    "banner  banner  banner"
+    "img     img     img"
+    "col1    col2    col3";
   gap: .75rem;
 }
 
